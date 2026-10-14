@@ -1,0 +1,101 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Secretos y contraseñas
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+secrets/
+credentials/
+passwords.txt
+password.txt
+secrets.json
+credentials.json
+
+# ==============================
+# Claves criptográficas privadas
+# ==============================
+private_keys/
+private_key/
+private/
+**/private_keys/
+**/*private*.pem
+**/*private*.key
+
+# ==============================
+# Datos locales de Buzón Seguro
+# ==============================
+trusted_keys.json
+trusted_keys.json.bak
+trusted_keys_backup.json
+
+# Si las claves públicas se guardan aquí,
+# puedes compartirlas solo si deseas distribuirlas.
+# public_keys/
+
+# ==============================
+# Documentos y paquetes de prueba
+# ==============================
+*.buzon
+*.enc
+*.encrypted
+*.cipher
+*.decrypt
+*.decrypted
+
+# Documentos personales de prueba
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.csv
+*.txt
+
+# Excepciones para archivos de documentación
+!README.md
+!requirements.txt
+!.gitignore
+
+# ==============================
+# Editores e IDE
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================
+# Sistema operativo
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Registros y temporales
+# ==============================
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
