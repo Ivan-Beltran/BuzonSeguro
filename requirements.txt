@@ -1,0 +1,28 @@
+# ==========================================
+# BUZÓN SEGURO - DEPENDENCIAS DEL PROYECTO
+# ==========================================
+
+# --- Bibliotecas externas ---
+cryptography>=42.0.0
+
+
+# --- Bibliotecas incluidas en Python ---
+# No necesitan instalarse mediante pip.
+
+# os          -> Operaciones del sistema y acceso a funciones del sistema operativo.
+# json        -> Lectura y escritura de datos en formato JSON.
+# base64      -> Codificación y decodificación de datos binarios.
+# hashlib     -> Cálculo de hashes y huellas digitales.
+# argparse    -> Procesamiento de argumentos y comandos de consola.
+# pathlib     -> Manejo de rutas y archivos.
+# datetime    -> Manejo de fechas y horas.
+# getpass     -> Lectura de contraseñas sin mostrarlas en pantalla.
+# re          -> Expresiones regulares para validar cadenas de texto.
+# secrets     -> Generación de valores aleatorios seguros.
+# hmac        -> Funciones para comparar valores criptográficos de forma segura.
+# sys         -> Acceso a parámetros y funciones del intérprete de Python.
+# typing      -> Anotaciones de tipos para el código.
+# shutil      -> Operaciones de alto nivel con archivos, si se utiliza.
+# tempfile    -> Creación de archivos temporales, si se utiliza.
+# logging     -> Registro de eventos y mensajes de diagnóstico.
+# unittest    -> Herramientas para realizar pruebas.
